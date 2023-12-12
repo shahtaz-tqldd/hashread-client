@@ -63,9 +63,9 @@ export const blogs = [
   {
     _id: 5,
     title: "Future Tech: A Glimpse into Tomorrow's Innovations",
+    date: "18 May, 2023",
     author: {
       name: "Tech Visionary",
-      date: "18 May, 2023",
       photo: {
         url: "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1351",
         public_id: "2367io"
@@ -86,7 +86,6 @@ export const blogs = [
       }
     },
     date: "30 Jun, 2023",
-
     time: "9 mins",
     content: "<p>Welcome fellow stargazers and cosmic enthusiasts! Today, we embark on a mesmerizing journey through the boundless wonders of deep space.</p><p>As we gaze up at the night sky, it's easy to be captivated by the twinkling stars and the vastness of the cosmos. In this exploration, we will unravel some of the most intriguing mysteries that the universe holds.</p><h2>The Starry Night</h2><p>Our adventure begins with a reflection on the beauty of a starry night. Imagine standing in a serene meadow, far away from city lights, and looking up at the celestial canvas painted with countless stars. It's a scene that has inspired poets, artists, and dreamers for centuries.</p><img src=\"https://static.vecteezy.com/system/resources/previews/024/098/278/non_2x/a-painting-of-a-starry-night-with-the-sky-and-full-moon-over-the-town-parody-on-vincent-van-gogh-generative-ai-illustration-for-wall-art-and-cafe-decor-photo.jpg\" alt=\"Starry Night\" /><p>Van Gogh's 'Starry Night' comes to mind, a masterpiece that captures the essence of the cosmic dance. The swirling patterns in the sky evoke a sense of movement and energy, mirroring the dynamism of the universe.</p><h2>Galaxies Far and Beyond</h2><p>Our gaze extends beyond individual stars to entire galaxies. These vast conglomerations of stars, gas, and dust form the building blocks of the universe. From the majestic Andromeda Galaxy to the enigmatic Whirlpool Galaxy, each holds its own story of cosmic evolution.</p><p>Scientists study these galaxies to unlock the secrets of the universe's origin and understand the forces that shape its destiny. The dance of galaxies, bound by gravity and propelled by dark matter, is a spectacle that unfolds on the cosmic stage.</p><h2>Black Holes: The Cosmic Enigma</h2><p>No exploration of deep space is complete without delving into the mysterious realm of black holes. These cosmic vacuum cleaners, born from the death of massive stars, possess gravitational forces so intense that nothing, not even light, can escape their grasp.</p><img src=\"https://example.com/black-hole.jpg\" alt=\"Black Hole\" /><p>As we peer into the heart of a black hole, we confront the limits of our understanding of space and time. The interplay between gravity and quantum mechanics creates a tapestry of complexity, challenging our fundamental notions of the universe.</p><h2>Conclusion</h2><p>Our cosmic journey has taken us through the vastness of space, from starry nights to galaxies and black holes. The mysteries of deep space continue to inspire awe and curiosity, propelling humanity to push the boundaries of knowledge.</p><p>As we conclude this exploration, remember that the universe is a canvas of infinite possibilities, waiting to be uncovered by the curious minds of stargazers like you. Keep looking up, and who knows what wonders you might discover in the great expanse of deep space!</p>",
     img: "https://images.unsplash.com/photo-1530092285049-1c42085fd395?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D",

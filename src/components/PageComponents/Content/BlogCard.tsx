@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import parse from 'html-react-parser';
 import { BsDot } from 'react-icons/bs';
-import { PiBookmarksSimpleFill, PiBookmarksSimple } from 'react-icons/pi';
+import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 import { Blog } from '@/utiles/types/blogcard-types';
 
 interface BlogCardProps {
@@ -14,9 +14,9 @@ interface BlogCardProps {
 const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
   const [save, setSave] = useState(false);
   const { title, author, date, time, content, img, _id } = data;
-  
+
   return (
-    <Link href={`/blog/${_id}`} passHref>
+    <Link href={`/blog/${_id}`} >
       <div className='grid grid-cols-4 gap-6 group cursor-pointer'>
         <div className='col-span-3 h-full'>
           <div className='flex gap-2 items-center'>
@@ -31,8 +31,8 @@ const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
               <BsDot />
               <p>{time} read</p>
             </div>
-            <button onClick={() => setSave(!save)}>
-              {save ? <PiBookmarksSimpleFill className="text-2xl text-primary mr-3" /> : <PiBookmarksSimple className="text-2xl text-gray-600 mr-3" />}
+            <button onClick={(e) => { e.preventDefault(); setSave(!save) }}>
+              {save ? <BsBookmarkFill className="text-xl text-primary mr-3" /> : <BsBookmark className="text-xl text-gray-600 mr-3" />}
             </button>
           </div>
         </div>
