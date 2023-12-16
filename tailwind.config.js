@@ -8,6 +8,7 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: false,
   theme: {
     screens: {
       xs: "350px",
@@ -16,19 +17,23 @@ module.exports = {
       lg: "992px",
       xl: "1200px",
     },
+    colors: {
+      tan: "var(--theme-tan)",
+      cot: "var(--theme-cot)",
+      sec: "var(--theme-sec)",
+      sin: "var(--theme-sin)",
+      cos: "var(--theme-cos)",
+      cosec: "var(--theme-cosec)",
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      colors: {
-        primary: "#0F0F0F",
-        sec: "#337CCF",
-        cos: "#A8DF8E",
-        lightText: "#BDBDBD",
-        textColor: "#000000",
-      },
+      colors:{
+        
+      }
     },
   },
   plugins: [],

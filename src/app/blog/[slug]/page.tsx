@@ -31,11 +31,11 @@ const Page: React.FC = () => {
           <p className='text-sm text-gray-500'>{blog?.date}</p>
         </div>
       </div>
-      <hr className='mt-4 mb-6 border-gray-300' />
+      <hr className='mt-4 mb-6 border-cosec' />
 
       <div className='text-[18px] text-gray-700'>{parse(blog?.content)}</div>
 
-      <div className='py-2.5 px-6 mt-10 bg-cos bg-opacity-90 rounded-full shadow-lg w-fit mx-auto sticky bottom-4 flex items-center gap-4'>
+      <div className='py-2.5 px-6 mt-10 bg-sin text-tan rounded-full w-fit mx-auto sticky bottom-4 flex items-center gap-4'>
         <h2 className='flex items-center gap-2'><FaRegHeart /> 83</h2>
         <div className='border border-l border-gray-400 h-6'></div>
         <h2 className='flex items-center gap-2'><BiCommentDetail /> 5</h2>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar/Navbar'
-import Footer from '@/components/Footer/Footer'
+import { Providers } from '@/lib/redux/provider'
 
 export const metadata: Metadata = {
   title: 'Hashread',
@@ -15,9 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='bg-tan text-sin'>
         <Navbar />
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

@@ -23,16 +23,16 @@ const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
             <Image src={author?.photo?.url} className="h-6 w-6 rounded-full object-cover" height={40} width={40} alt="" />
             <h2 className='text-sm group-hover:translate-x-1 tr'>{author?.name}</h2>
           </div>
-          <h2 className='text-xl font-bold mt-3 mb-2 text-gray-700 group-hover:text-sec tr'>{title}</h2>
-          <div className='text-sm text-gray-700 group-hover:text-primary tr'>{parse(content.slice(0, 130))}</div>
+          <h2 className='text-xl font-bold mt-3 mb-2 text-sin group-hover:text-sec tr'>{title}</h2>
+          <div className='text-[15px] text-cos group-hover:text-primary tr'>{parse(content.slice(0, 130))}</div>
           <div className='flex justify-between items-center mt-3'>
-            <div className='flex items-center gap-2 text-sm text-gray-500 group-hover:text-gray-600 tr'>
+            <div className='flex items-center gap-2 text-sm text-gray-500 group-hover:text-primary tr'>
               <p>{date}</p>
               <BsDot />
               <p>{time} read</p>
             </div>
             <button onClick={(e) => { e.preventDefault(); setSave(!save) }}>
-              {save ? <BsBookmarkFill className="text-xl text-primary mr-3" /> : <BsBookmark className="text-xl text-gray-600 mr-3" />}
+              {save ? <BsBookmarkFill className="text-xl text-primary mr-3" /> : <BsBookmark className="text-xl text-gray-600 hover:text-black mr-3 tr" />}
             </button>
           </div>
         </div>

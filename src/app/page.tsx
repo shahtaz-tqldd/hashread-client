@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer/Footer";
 import BlogList from "@/components/PageComponents/Home/BlogList";
 import Hero from "@/components/PageComponents/Home/Hero";
 import Topics from "@/components/PageComponents/Home/Topics";
@@ -9,7 +8,7 @@ export default function Home() {
     <div>
       <Hero />
       <TrendingBlog />
-      <hr className="border-gray-300 container" />
+      <hr className="border-cosec container" />
       <section className="grid grid-cols-3 gap-10">
         <div className="col-span-2">
           <BlogList />

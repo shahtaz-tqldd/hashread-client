@@ -20,7 +20,7 @@ const Comments: React.FC = () => {
             <h2 className='font-bold'>Shahtaz Rahman Shanto</h2>
           </div>
         </div>
-        <input placeholder='write comments' className='ml-12 py-2 focus:outline-none border-b-2 border-gray-400 bg-transparent focus:border-b-gray-700 w-full' />
+        <input placeholder='write comments' className='ml-12 py-2 focus:outline-none border-b-2 border-cos bg-tan focus:border-b-gray-700 w-full' />
       </div>
       <div className="flex flex-col gap-5 mt-12">
         {comments?.map(({ comment, author, replies, time }: Comment, i: number) => (

@@ -2,7 +2,7 @@ export const navdata = [
   {
     id: 1,
     title: 'Our story',
-    link:'/'
+    link:'/our-story'
   },
   {
     id: 2,
@@ -12,7 +12,7 @@ export const navdata = [
   {
     id: 3,
     title: 'Write',
-    link:'/contact'
+    link:'/write'
   },
   {
     id: 4,
