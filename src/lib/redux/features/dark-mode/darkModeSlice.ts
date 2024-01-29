@@ -1,3 +1,5 @@
+declare const localStorage: Storage;
+
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface DarkModeState {

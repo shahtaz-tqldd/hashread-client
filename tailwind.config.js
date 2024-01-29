@@ -17,24 +17,21 @@ module.exports = {
       lg: "992px",
       xl: "1200px",
     },
-    colors: {
-      tan: "var(--theme-tan)",
-      cot: "var(--theme-cot)",
-      sec: "var(--theme-sec)",
-      sin: "var(--theme-sin)",
-      cos: "var(--theme-cos)",
-      cosec: "var(--theme-cosec)",
-    },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
-        
-      }
+      colors: {
+        tan: "var(--theme-tan)",
+        cot: "var(--theme-cot)",
+        sec: "var(--theme-sec)",
+        sin: "var(--theme-sin)",
+        cos: "var(--theme-cos)",
+        cosec: "var(--theme-cosec)",
+      },
     },
   },
   plugins: [],
-}
+};
